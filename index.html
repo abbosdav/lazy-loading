@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy-loading</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="page">
+            <div class="page__container">
+                 <section class="page__section section__page-1">
+                     <h1 class="page__title">Title</h1>
+                     <div class="page__text">
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse architecto commodi mollitia sapiente at ex? At sit quasi et mollitia molestiae expedita ad eos eaque pariatur aspernatur, sed ut, accusantium, iste repellat repudiandae. Explicabo perspiciatis quos id officia porro quae nihil ullam, quo aspernatur?
+                        </p>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse architecto commodi mollitia sapiente at ex? At sit quasi et mollitia molestiae expedita ad eos eaque pariatur aspernatur, sed ut, accusantium, iste repellat repudiandae. Explicabo perspiciatis quos id officia porro quae nihil ullam, quo aspernatur?
+                        </p>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse architecto commodi mollitia sapiente at ex? At sit quasi et mollitia molestiae expedita ad eos eaque pariatur aspernatur, sed ut, accusantium, iste repellat repudiandae. Explicabo perspiciatis quos id officia porro quae nihil ullam, quo aspernatur?
+                        </p>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse architecto commodi mollitia sapiente at ex? At sit quasi et mollitia molestiae expedita ad eos eaque pariatur aspernatur, sed ut, accusantium, iste repellat repudiandae. Explicabo perspiciatis quos id officia porro quae nihil ullam, quo aspernatur?
+                        </p>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse architecto commodi mollitia sapiente at ex? At sit quasi et mollitia molestiae expedita ad eos eaque pariatur aspernatur, sed ut, accusantium, iste repellat repudiandae. Explicabo perspiciatis quos id officia porro quae nihil ullam, quo aspernatur?
+                        </p>
+                        
+                     </div>
+                 </section>
+                 <section class="page__section section__page-2">
+                     <h2 class="page__sub-title">Title-sub</h2>
+                     <div class="page__images">
+                         <div class="page__image">
+                             <img data-src="img/tigr.jpg" src="" alt="Picture">
+                         </div>
+                         <div class="page__image">
+                            <picture>
+                                <source data-srcset="img/tigrw.webp" srcset="">
+                                <img data-src="img/tigr.jpg" src="" alt="Picture">
+                            </picture>
+                         </div>
+                         <div class="page__image">
+                             <img data-src="img/tigr.jpg" src="" alt="Picture">
+                         </div>
+                         <div class="page__image">
+                             <img data-src="img/tigr.jpg" src="" alt="Picture">
+                         </div>
+                         <div class="page__image">
+                             <img data-src="img/tigr.jpg" src="" alt="Picture">
+                         </div>
+                         <div class="page__image">
+                             <img data-src="img/tigr.jpg" src="" alt="Picture">
+                         </div>
+                     </div>
+                 </section>
+                 <section class="page__section section__page-3">
+                     <div class="page__map load-map" data-map="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12274764.739098465!2d69.2912128!3d41.3138944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suz!2s!4v1629699765360!5m2!1suz!2s" width="100%" height="500px" style="border:0;">
+                     </div>
+                 </section>
+                 <section class="page__section section__page-1">
+                    <h1 class="page__title">Title</h1>
+                    <div class="page__text load-more">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

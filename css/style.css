@@ -1,0 +1,61 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page__container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px -10px;
+}
+.page__section.section__page-1{
+    padding: 10px 30px;
+    background-color: rgb(95, 56, 5);
+    color: #fff;
+}
+.page__title{
+    font-size: 44px;
+}
+.page__text p{
+    font-size: 24px;
+    padding: 15px 0px;
+}
+.page__section.section__page-2{
+    padding: 45px 30px 15px 30px;
+    background-color: rgb(6, 84, 6);
+}
+.page__sub-title{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom:30px;
+}
+.page__images{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.page__image{
+    width: 100%;
+    padding: 10px;
+    min-height: 250px;
+    background: url("../img/load_bc.gif") center/ 70% no-repeat;
+}
+.page__image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.loading-icon{
+    background: url("../img/load_bc.gif") center/ 20% no-repeat;
+    height: 50px;
+    padding: 50px;
+}
+.page__section.section__page-3{
+    min-height: 400px;
+    padding: 10px;
+    background-color: rgb(91, 32, 85);
+}
+.page__map{
+    position: relative;
+    padding: 20px;
+    background: url('../img/load_bc.gif') center/ 50% no-repeat;
+}
